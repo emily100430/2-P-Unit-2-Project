@@ -8,7 +8,7 @@ Requirements
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Include Border Radius CSS Property 
 [ no ] Feature 2 - Include a Static Background Image
-[ no ] Feature 3 - Include An Animated Background Color Change
+[Yes ] Feature 3 - Include An Animated Background Color Change
 [ no ] Feature 4 - Embed YouTube Video 
 [ no ] Feature 5 - Include Border CSS Property 
 -->
@@ -18,10 +18,23 @@ Select ONE Additional Feature to Add
     <head>
         <meta charset="utf-8">
         <title> Visit Paris now!</title>
+        <Style> 
+ h1{ color:rgb(240, 211, 167)}
+
+body, html{ animation: colorChange 3s infinite alternate;}
+@keyframes colorChange{ 
+    0%{ background-color: rgb(181, 213, 255);} 
+    100%{ background-color: rgb(205, 239, 255);}
+}
+
+        </Style>
     </head>
     <body>
-        
+     <h1> Visit Paris Now!</h1>   
+ <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg/330px-Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" width="150" <br>
 
+ <p> You should visit Paris for its unmatched blend of iconic architecture, world-class art, and vibrant street life. From standing beneath the glowing Eiffel Tower and exploring masterpieces at the Louvre Museum to savoring fresh pastries at a local boulangerie and taking a leisurely stroll along the Seine River, every corner of the city offers a rich sensory experience. Whether you want to admire historic Gothic cathedrals like Notre-Dame or simply watch the world go by from a classic sidewalk café terrace, Paris delivers a timeless and unforgettable journey. </p> 
+  <h2> Some of the Best Food in Paris</h2>
         
     </body>
 </html>
